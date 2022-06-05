@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container, main {
+  width: 100%;
+  margin: 2% 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* img styles */
+img {
+  width: 100%;
+}
+
+/* header styles */
+header {
+  justify-content: center;
+  align-self: center;
+} 
+
+#header_img {
+  background-color: #DFD7C9;
+  padding: 2%;
+  width: 100%;
+  margin: 5% 0 2.5% 0;
+}
+
+#header_content {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2.5%;
+}
+
+/* main styles */
+#confirmationMsg {
+  width: 25%;
+  height: auto;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+/* table styles
+table {
+  max-width: 80vw;
+}
+
+th, td {
+  padding: 1% 2%;
+}
+
+td {
+  width: fit-content;
+}*/
+
+/* form styles */
+
+form {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  background-color: #DFD7C9;
+  width: 100%;
+  padding: 4%;
+}
+
+input, select {
+  width: 100%;
+  padding: 1%;
+}
+
+input[type=submit] {
+  padding: 4%;
+  width: auto;
+}
+
+#add_artist {
+  padding: 10px;
+}
+
+/* footer styles */
+footer {
+  text-align: center;
+  margin: 5% 0;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+a:link {
+  color: #84714F; 
+}
+
+a:visited {
+  color: #84714F;
+}
+
+a:hover {
+  color: #1C2541;
+}
+
+/* error styles */
+.error {
+  color: #831600;
+}
